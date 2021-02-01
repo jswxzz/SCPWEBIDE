@@ -1,0 +1,16 @@
+Error: Could not find the "com.sap.hana.di.cds" build plugin
+
+https://answers.sap.com/questions/13048899/error-could-not-find-the-comsaphanadicds-build-plu.html
+    "cds": {
+         "hana": {
+            "deploy-format": "hdbtable"
+        },
+        "requires": {
+            "db": {
+                "kind": "hana"
+            }
+        }
+    }
+    
+this option is now documented: 
+https://cap.cloud.sap/docs/guides/databases#hana-cloud
